@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#logo{
+    width: 60px;
+    height: 60px;
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0.237);
+}
+footer p{
+    height: 30px;
+    width: 100%;
+    margin-left: 45%;
+    margin-top: 35px;
+    
+}
+
+footer{
+    background-color: beige;
+}
+
+
+
+.card{
+    width: 50%;
+    height: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+}
+
+.card img{
+    height: 400px;
+}
+
+
+
+.card-body{
+    height: 85px;
+}
+
+.card-title{
+    text-align: center;
+    font-size: large;
+}
+
+.card-body a{
+    text-align: center;
+    margin-left: 90px;
+    text-decoration: none;
+    color: brown;
+}
+
+.card-body a:hover{
+    color: blue;
+    transition: ease-in-out;
+    cursor: pointer;
+}

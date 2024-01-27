@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#logo{
+    width: 60px;
+    height: 60px;
+}
+
+/* section */
+
+#section1{
+    background-image: url(../IMAGES/Bg/bg3.jpg);
+    height: 300px;
+    width: 90%;
+    background-size: cover;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: whitesmoke;
+    position: relative;
+}
+
+#head1{
+    margin-left: 40%;
+    margin-top: 80px;
+    position: absolute;
+    font-family: Papyrus;
+    font-size: 50px;
+
+}
+
+#para1{
+    /* margin-left: 46%; */
+    margin-top: 5px;
+    margin-left: 20px;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    
+    
+}
+
+.checked {
+    color: whitesmoke;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding-inline: 0em;  
+   
+  }
+
+
+.section2 img{
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left:1% ;
+    border-radius: 100px;
+}
+
+.side img{
+    height: 280px;
+    width: 200px;
+    margin-left: 84%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+}
+
+/* About */
+
+.about h6{
+    margin-left: 90px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: x-large;
+    color: goldenrod;
+}
+
+.about #para{
+    margin-left: 90px;
+    text-align: justify;
+    margin-right: 20px;
+
+}
+
+/* card */
+
+.p-text{
+    margin-left: 6%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    
+}
+
+/* .card{
+    width: 150px;
+    height: 150px;
+    margin-left: 20%;
+} */
+
+.card{
+    border: none;
+}
+
+.card img{
+    height:150px;
+    width: 200px;
+    margin-left: 100px;
+    
+}
+
+#link1{
+    margin-left: 25%;
+    text-decoration: none;
+    color: brown;
+    margin-top: 1px;
+   
+}
+
+#link1:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+#link2{
+    margin-left: 25%;
+    text-decoration: none;
+    color: brown;
+   
+}
+
+#link2:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+#link3{
+    margin-left: 25%;
+    text-decoration: none;
+    color: brown;
+   
+}
+
+#link3:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+/* footer */
+
+/* footer p{
+    height: 20px;
+    width: 100%;
+    margin-left: 45%;
+    margin-top: 5px;
+} */
