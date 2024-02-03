@@ -18,7 +18,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="home.html">HOME</a>
+            <a class="nav-link " aria-current="page" href="index.html">HOME</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="login.html">LOGIN</a>
@@ -38,10 +38,12 @@
 
 <!-- form starts here -->
     <div class="container">
-        <form action="#" class="form">
+        <form action="success.html" class="form" onsubmit="return validate(),validatePwd(),validateTest()">
             <h2>LOGIN</h2>
-            <input type="email" class="box" placeholder="Enter Email">
-            <input type="password" class="box" placeholder="Enter Password">
+            <input type="text" class="box" placeholder="Enter Email" id="email" onblur="return validate()">
+            <span id="errEmail"></span>
+            <input type="password" class="box" placeholder="Enter Password" id="pwd" onblur="return validatePwd()">
+            <span id="errPwd"></span>
             <input type="submit" value="LOGIN" id="submit">
             <p>Not a member?</p>
             <a href="signup.html">SignUp</a>
@@ -59,5 +61,6 @@
   </footer>
 <!-- footer ends here -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="JS/login.js"></script>
 </body>
 </html>

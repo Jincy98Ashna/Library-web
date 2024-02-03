@@ -94,65 +94,48 @@
     
 }
 
-/* .card{
-    width: 150px;
-    height: 150px;
-    margin-left: 20%;
-} */
-
 .card{
-    border: none;
+    width: 50%;
+    height: 30%;
+    margin-left: 20%;
 }
 
 .card img{
-    height:150px;
-    width: 200px;
-    margin-left: 100px;
-    
+    height: 300px;
 }
 
-#link1{
-    margin-left: 23%;
+#sherlock{
+    height: 300px;
+}
+
+#half{
+    height: 300px;
+}
+
+
+.card-text p{
+    text-align: justify;
+}
+
+.card a{
+   margin-left: 30px;
     text-decoration: none;
     color: brown;
-    margin-top: 1px;
-   
 }
 
-#link1:hover{
-    cursor: pointer;
+.card a:hover{
     color: blue;
-}
-
-#link2{
-    margin-left: 25%;
-    text-decoration: none;
-    color: brown;
-   
-}
-
-#link2:hover{
     cursor: pointer;
-    color: blue;
 }
 
-#link3{
-    margin-left: 25%;
-    text-decoration: none;
-    color: brown;
-   
-}
-
-#link3:hover{
-    cursor: pointer;
-    color: blue;
-}
-
-/* footer */
-
-/* footer p{
-    height: 20px;
+footer{
+    height: 50px;
     width: 100%;
-    margin-left: 45%;
-    margin-top: 5px;
-} */
+    background-color: beige;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+footer h6{
+    text-align: center;
+}

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     
-    <title>Login</title>
+    <title>SignUp</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/signup.css">
 </head>
@@ -18,7 +18,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="home.html">HOME</a>
+            <a class="nav-link " aria-current="page" href="index.html">HOME</a>
           </li>
           <li class="nav-item">
             <a class="nav-link " href="login.html">LOGIN</a>
@@ -38,16 +38,18 @@
 
 <!-- form starts here -->
     <div class="container">
-      <form action="#" class="form">
+      <form action="index.html" class="form"  onsubmit="return validate(), validatePwd(), validateConPwd(), validatePhn(), validateTest()">
         <h2>SIGNUP</h2>
-        <input type="email" class="box" placeholder="Enter Email">
-        <input type="password" class="box" placeholder="Enter Password">
-        <input type="password" class="box" placeholder="Confirm Password">
-        <input type="number" class="box" placeholder="Enter Phone Number">
-
+        <input type="text" class="box" placeholder="Enter Email" id="email" onblur="return validate()" >
+        <span id="errEmail"></span>
+        <input type="password" class="box" placeholder="Enter Password" id="pwd" onblur="return validatePwd()">
+        <span id="errPwd"></span>
+        <input type="password" class="box" placeholder="Confirm Password" id="conPwd" onblur="return validateConPwd()">
+        <span id="errConPwd"></span>
+        <input type="text" class="box" placeholder="Enter Phone Number" id="phn" onblur="return validatePhn()">
+        <span id="errPhn"></span>
         <input type="submit" value="SIGNUP" id="submit">
-        <p>Not a member?</p>
-        <a href="signup.html">SignUp</a>
+        
       </form>
 
         <div class="side">
@@ -62,5 +64,6 @@
   </footer>
 <!-- footer ends here -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="JS/signup.js"></script>
 </body>
 </html>
